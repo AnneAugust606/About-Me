@@ -88,6 +88,9 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
+.app-button {
+    text-align: center;
+}
 
 .email-link {
   display: flex;
@@ -114,5 +117,10 @@ p {
   text-transform: capitalize;
 }
 @media (max-width: 600px) {
-    
+    h1 {
+        font-size: 50px;
+    }
+    .app-button {
+    display: block;
+    margin: 0 25px;
 }
